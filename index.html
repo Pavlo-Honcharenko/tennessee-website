@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/ethnocentric-rg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Poppins-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.png">
+		<title>Home Page</title>
+		<style>*{border:0;margin:0;padding:0}*,:after,:before{box-sizing:border-box}:after,:before{display:inline-block}body,html{height:100%}body{line-height:1;scrollbar-gutter:stable;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}button,input{background-color:transparent;color:inherit;font-family:inherit;font-size:inherit;line-height:inherit}input{width:100%}a{color:inherit;display:inline-block;text-decoration:none}ul li{list-style:none}img{height:auto;max-width:100%;vertical-align:middle}h1,h2{font-size:inherit;font-weight:inherit}@font-face{font-display:swap;font-family:ethnocentric;font-style:normal;font-weight:400;src:url(assets/fonts/ethnocentric-rg.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:600;src:url(assets/fonts/Poppins-SemiBold.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:400;src:url(assets/fonts/Poppins-Regular.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:500;src:url(assets/fonts/Poppins-Medium.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:700;src:url(assets/fonts/Poppins-Bold.woff2) format("woff2")}body{color:#000;font-family:Poppins;font-size:1rem;line-height:130%;min-width:20rem}.wrapper{display:flex;flex-direction:column;min-height:100%;overflow:clip}.wrapper>main{flex:1 1 auto}.wrapper>*{min-width:0}[class*=__container]{margin:0 auto;max-width:101.875rem;padding-left:.9375rem;padding-right:.9375rem;width:100%}.icon-menu{display:none}.header{background-color:#050505;left:0;position:fixed;top:0;width:100vw;z-index:10}.header__top-bar{align-items:center;background-color:#050505;color:#fff;display:flex;justify-content:center;margin:0 auto;padding:.5rem 0;width:fit-content}.header__container{align-items:center;display:flex;justify-content:space-between}.header__contact-info{align-items:center;display:flex;flex-wrap:wrap;gap:3.75rem;justify-content:center}.header__main-bar{align-items:center;background-color:#fff;display:flex;gap:1.875rem;justify-content:space-between;padding:.375rem 0}.header__logo{height:100%;max-height:5rem;width:auto}.header__contact-button{align-items:center;background-color:#b12025;border:none;border-radius:.3125rem;color:#fff;display:flex;font-weight:600;justify-content:center;padding:.625rem 1.25rem}.menu__list{font-weight:600;gap:1.875rem}.hero,.menu__list{align-items:center;display:flex;justify-content:center}.hero{background:url(assets/img/home-1.webp) 50%/cover no-repeat;margin-top:7.5rem;min-height:calc(100vh - 12.5rem);padding-bottom:3.75rem;padding-top:3.75rem;position:relative}.hero:before{background-color:rgba(0,0,0,.5);content:"";height:100%;left:0;position:absolute;top:0;width:100%}.hero>*{position:relative;z-index:2}.hero__container{display:flex;gap:6.25rem}.hero__content{display:flex;flex-direction:column;gap:3.125rem}.hero__heading{color:#fff;font-family:ethnocentric;font-size:5rem;line-height:5rem}.hero__heading span{display:block;font-family:Poppins;font-weight:600;letter-spacing:.3125rem;line-height:100%}.hero__text{color:#fff;font-size:1.25rem;line-height:130%;margin-top:auto;max-width:31.25rem;width:100%}.hero__button{align-items:center;background-color:#fff;border:1.875rem;color:#b12025;display:flex;font-weight:600;justify-content:center;padding:.625rem 1.25rem;text-transform:uppercase;width:fit-content}.hero__form-wrapper{backdrop-filter:blur(.625rem);background-color:hsla(0,0%,49%,.608);border-radius:1.25rem;display:flex;flex-direction:column;margin-left:auto;max-width:38.75rem;padding:2.5rem}.hero__form-heading{font-family:ethnocentric;font-size:2.625rem;line-height:100%}.hero__form-heading,.hero__form-text{color:#fff;margin-bottom:2.5rem;text-align:center}.hero__form-text{font-size:1.5rem;line-height:130%}.hero__form-input{align-items:center;background-color:#626262;border:.125rem solid #969696;border-radius:1.875rem;color:#fff!important;display:flex;margin-bottom:1.875rem;padding:.75rem 1.25rem}.hero__form-input:before{color:#fff}.hero__form-submit-button{align-items:center;background-color:#b12025;border:1.875rem;color:#fff;display:flex;font-weight:600;justify-content:center;margin-top:3.75rem;padding:.625rem 1.25rem;text-transform:uppercase;width:100%}@media (max-width:75em){.header__logo{max-height:4.375rem}}@media (max-width:64.06125em){.menu__body{height:100%;left:-100%;overflow:auto;padding:9.375rem .9375rem 1.875rem;position:fixed;top:0;width:100%}.menu__list{flex-direction:column}.menu__link{font-size:1.25rem}.icon-menu{display:block;height:1.125rem;position:relative;width:1.875rem;z-index:5}.icon-menu span,.icon-menu:after,.icon-menu:before{background-color:#000;content:"";height:.125rem;position:absolute;right:0;width:100%}.icon-menu:before{top:0}.icon-menu:after{bottom:0}.icon-menu span{top:calc(50% - .0625rem)}.header__logo{max-height:3.75rem}.header__contact-button{margin-left:auto;margin-right:1.875rem}}@media (max-width:47.99875em){.header__contact-info{column-gap:1.875rem;row-gap:.5rem}}</style>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1751982105873"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1751982105873" media="print" onload="this.media='all'">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+				<div class="header__top-bar">
+					<div class="header__container">
+						<div class="header__contact-info">
+							<span class="header__phone">1-931-540-8305</span>
+							<span class="header__phone">1-931-540-8305</span>
+							<span class="header__email">sales@wastesolution.com</span>
+						</div>
+					</div>
+				</div>
+				<div class="header__main-bar">
+					<div class="header__container">
+						<a href="#" class="header__logo-link">
+							<img alt="Waste Solution Logo" class="header__logo" src="./assets/img/logo-header.webp">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="" class="menu__link">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">About Us</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Dumpster Sizes</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">FAQ's</a>
+									</li>
+									<li class="menu__item">
+										<a href="" class="menu__link">Gallery</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<button class="header__contact-button">Contact Us</button>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__content">
+							<h1 class="hero__heading">
+								DUMPSTERS
+								<span>DELIVERED FAST</span>
+							</h1>
+							<p class="hero__text">
+								Lorem ipsum dolor sit amet
+					consectetur. Cursus enim Mi
+					Non Gravida Elementum. Sit
+					Quam in Pellentesque ipsum
+					luctus Lorem.
+							</p>
+							<button class="hero__button">Book Now</button>
+						</div>
+						<div class="hero__form-wrapper">
+							<h2 class="hero__form-heading">QUOTE REQUEST</h2>
+							<p class="hero__form-text">Lorem ipsum dolor sit amet
+					consectetur. Viverra Posuere.</p>
+							<form class="hero__form">
+								<div class="hero__form-group">
+									<input type="text" class="hero__form-input" placeholder="Your Name">
+								</div>
+								<div class="hero__form-group">
+									<input type="tel" class="hero__form-input" placeholder="Phone Number">
+								</div>
+								<div class="hero__form-group">
+									<input type="email" class="hero__form-input" placeholder="Enter Your Email">
+								</div>
+								<div class="hero__form-group">
+									<input type="text" class="hero__form-input" placeholder="Purpose">
+								</div>
+								<button type="submit" class="hero__form-submit-button">Submit</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+		<noscript><link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1751982105873"></noscript>
+	</body>
+</html>
