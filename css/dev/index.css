@@ -1588,7 +1588,7 @@ body {
 }
 .footer .newsletter-subscribe__input {
   flex: 1 1 auto;
-  padding: 0.9375rem 1.5625rem;
+  padding: 0.9375rem 0.9375rem;
   border-radius: 1.875rem;
   border: initial;
   background-color: #fff;
@@ -1620,7 +1620,7 @@ body {
 .footer__social-links {
   margin-top: 2.5rem;
   display: flex;
-  gap: 10;
+  gap: 0.9375rem;
 }
 .footer__social-icon {
   display: flex;
