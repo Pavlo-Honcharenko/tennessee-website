@@ -1191,6 +1191,13 @@ body {
   background-color: #B12025;
   margin: 1.25rem auto 0;
 }
+.faq .faq__image {
+  width: 100%;
+  max-width: 31.25rem;
+  margin: 3.125rem auto 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
 
 .spollers {
   max-width: 62.5rem;
@@ -1218,6 +1225,10 @@ body {
 }
 .spollers__body p {
   font-size: 1.125rem;
+}
+.spollers__body a {
+  color: #3668ff;
+  font-weight: 500;
 }
 
 .community {
