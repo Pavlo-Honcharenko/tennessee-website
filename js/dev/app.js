@@ -216,6 +216,14 @@ function menuInit() {
   });
 }
 document.querySelector("[data-fls-menu]") ? window.addEventListener("load", menuInit) : null;
+document.addEventListener("DOMContentLoaded", () => {
+  const menuItems = document.querySelectorAll(".menu__item");
+  menuItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      item.classList.toggle("menu__item--open");
+    });
+  });
+});
 function headerScroll() {
   const header = document.querySelector("[data-fls-header-scroll]");
   const headerShow = header.hasAttribute("data-fls-header-scroll-show");
