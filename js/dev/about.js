@@ -1,3 +1,4 @@
+import "./app.min.js";
 class Parallax {
   constructor(elements) {
     if (elements.length) {
