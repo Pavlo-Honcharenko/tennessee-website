@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
-		<link rel="preload" href="./assets/fonts/ethnocentric-rg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Poppins-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Orbitron-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.png">
 		<meta name="keywords" content="">
 		<meta name="author" content="">
@@ -20,39 +20,49 @@
 		<meta property="og:locale" content="en_US">
 		<meta property="og:type" content="website">
 		<meta name="twitter:card" content="summary">
-		<style>*{border:0;margin:0;padding:0}*,:after,:before{box-sizing:border-box}:after,:before{display:inline-block}body,html{height:100%}body{line-height:1;scrollbar-gutter:stable;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}button{background-color:transparent;color:inherit;font-family:inherit;font-size:inherit;line-height:inherit}a{color:inherit;display:inline-block;text-decoration:none}ul li{list-style:none}img{height:auto;max-width:100%;vertical-align:middle}h1,h2{font-size:inherit;font-weight:inherit}@font-face{font-display:swap;font-family:ethnocentric;font-style:normal;font-weight:400;src:url(assets/fonts/ethnocentric-rg.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:600;src:url(assets/fonts/Poppins-SemiBold.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:400;src:url(assets/fonts/Poppins-Regular.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:500;src:url(assets/fonts/Poppins-Medium.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:700;src:url(assets/fonts/Poppins-Bold.woff2) format("woff2")}body{color:#000;font-family:Poppins;font-size:1rem;line-height:130%;min-width:20rem}.wrapper{display:flex;flex-direction:column;min-height:100%;overflow:clip}.wrapper>main{flex:1 1 auto}.wrapper>*{min-width:0}[class*=__container]{margin:0 auto;max-width:101.875rem;padding-left:.9375rem;padding-right:.9375rem;width:100%}[class*=-button],[class*=__button]{align-items:center;border-radius:1.875rem;display:flex;font-weight:700;justify-content:center;padding:.875rem 1.25rem;position:relative;text-transform:uppercase;z-index:2}.icon-menu{display:none}.header{background-color:#050505;width:100vw;z-index:10}.header__top-bar{align-items:center;background-color:#050505;color:#fff;display:flex;justify-content:center;margin:0 auto;padding:.5rem 0;position:relative;width:fit-content;z-index:2}.header__container{align-items:center;display:flex;justify-content:space-between}.header__contact-info{align-items:center;display:flex;flex-wrap:wrap;gap:3.75rem;justify-content:center}.header__main-bar{align-items:center;background-color:#fff;display:flex;gap:1.875rem;justify-content:space-between;padding:.375rem 0}.header__logo-link{margin-right:.9375rem;position:relative;z-index:2}.header__logo{height:100%;width:auto}.header__contact-button{background-color:#b12025;border:.0625rem solid #b12025;color:#fff}.menu__body{background-color:#fff}.menu__list{align-items:center;display:flex;font-weight:600;gap:1.875rem;justify-content:center}.menu__item,.menu__link{position:relative}.menu__link{font-size:1.25rem}.menu__link:after{background-color:#b12025;bottom:-.3125rem;content:"";height:.125rem;left:50%;position:absolute;width:0}.menu__item--with-submenu{padding-right:1.625rem}.menu__item--with-submenu:after{background:url(assets/img/icons/red-arrow.svg) 50%/contain no-repeat;content:"";display:block;height:.625rem;position:absolute;right:.125rem;top:.75rem;transform:translateY(-50%);width:1rem}.submenu-wrapper{border-radius:0 0 .25rem .25rem;height:0;left:-.9375rem;overflow:hidden;position:absolute;top:calc(100% + .3125rem)}.submenu,.submenu-wrapper{background-color:#fff;width:max-content}.submenu{padding:1.5rem .9375rem 1.25rem}.submenu__item:not(:last-child){margin-bottom:1.125rem}.submenu__item a{font-size:1.125rem}.submenu .menu__link{font-weight:500;opacity:.75}.hero{align-items:center;background-attachment:fixed;background-image:url(assets/img/home-1.webp);background-position-x:center;background-position-y:center;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;padding-bottom:3.75rem;padding-top:3.75rem;position:relative}.hero:before{background-color:rgba(0,0,0,.3);content:"";height:100%;left:0;position:absolute;top:0;width:100%}.hero>*{position:relative;z-index:2}.hero__container{display:flex;gap:6.25rem}.hero__content{display:flex;flex-direction:column;gap:3.125rem}.hero__heading{color:#fff;font-family:ethnocentric;font-size:5rem}.hero__heading span{display:block;font-family:Poppins;font-weight:600;letter-spacing:.3125rem;line-height:100%;padding-top:.9375rem}.hero .hero__subtitle{font-size:1.5rem;line-height:1.3}.hero .hero__subtitle,.hero__text{color:#fff;margin-top:auto;max-width:45vw;width:100%}.hero__text{font-size:1.25rem;line-height:130%}.hero__button{align-items:center;background-color:#4a4a4a;border-radius:1.875rem;color:#fff;display:flex;font-weight:700;justify-content:center;padding:.875rem 1.25rem;text-transform:uppercase;width:fit-content}.hero__button{border:.0625rem solid hsla(0,0%,85%,.859)}.hero__form-wrapper{backdrop-filter:blur(.3125rem);background-color:hsla(0,0%,49%,.608);border-radius:1.25rem;display:flex;flex-direction:column;margin-left:auto;max-width:34.375rem;padding-bottom:2.5rem;padding-top:2.5rem}.hero__form-heading{font-family:ethnocentric;font-size:2.25rem}.hero__form-heading,.hero__form-text{color:#fff;line-height:130%;margin-bottom:2.1875rem;text-align:center}.local-experts__container{align-items:center;display:flex;justify-content:space-between;position:relative}.local-experts__content{display:flex;flex:0 1 50%;flex-direction:column;margin-bottom:auto;padding-right:6.875rem}.local-experts__title{font-family:ethnocentric;line-height:1.3}.local-experts__stats{align-items:center;background-color:#fff;border-radius:.625rem;display:flex;flex-direction:column;justify-content:center;left:calc(50% - 6.25rem);margin:auto;padding:2.5rem 2.5rem 0;position:absolute;top:calc(50% - 8.75rem);width:12.5rem}.spollers__body{border:initial!important;padding:0 0 1.25rem}.spollers__body p{font-size:1rem;opacity:.8}.spollers__body a{color:#3668ff;font-weight:500}.social-follow .social-follow__images img{transform:translate(.9375rem)}.form1-wrapper{margin:-.625rem -.9375rem}@media (max-width:75.06125em){.hero{background-image:url(assets/img/home-1-1200.webp);padding-bottom:3.125rem;padding-top:3.125rem}.hero__container{display:block}.hero__heading{text-align:center}.hero .hero__subtitle,.hero__text{max-width:none;text-align:center}.hero__button{margin:0 auto}.hero__form-wrapper{margin:3.75rem auto 0}.local-experts__container{display:block}.local-experts__content{display:block;margin-bottom:3.125rem;padding-right:0}.local-experts__title{text-align:center}.local-experts__stats{box-shadow:.125rem .125rem .3125rem rgba(0,0,0,.3);flex-direction:row;left:auto;margin:3.125rem auto -4.375rem;padding:1.25rem 1.25rem 0;position:relative;top:auto;width:22.5rem}}@media (max-width:68.75em){.menu__list{gap:1.5625rem}.menu__link{font-size:1.1875rem}}@media (max-width:64.06125em){[class*=-button],[class*=__button]{padding:.625rem .9375rem}.menu__body{height:calc(100svh - 6.25rem);left:-100%;overflow:auto;padding:12.5rem .9375rem 1.875rem;position:fixed;top:6.25rem;width:100%}.menu__list{flex-direction:column}.menu__link{font-size:1.25rem}.icon-menu{display:block;height:1.125rem;position:relative;width:1.875rem;z-index:5}.icon-menu span,.icon-menu:after,.icon-menu:before{background-color:#000;content:"";height:.125rem;position:absolute;right:0;width:100%}.icon-menu:before{top:0}.icon-menu:after{bottom:0}.icon-menu span{top:calc(50% - .0625rem)}.header__contact-button{margin-left:auto;margin-right:1.875rem}.menu__list{gap:1.875rem}.menu__item{margin-left:12.5rem;min-width:18.625rem}.menu__link:after{display:none}.menu__item--with-submenu:after{right:11.25rem}.submenu-wrapper{left:auto;position:relative;top:auto}.hero{background-image:url(assets/img/home-1-1024.webp)}}@media (max-width:47.99875em){[class*=-button],[class*=__button]{padding:.5rem .9375rem}.header__contact-info{column-gap:1.875rem;row-gap:.5rem}.submenu{padding:1.5rem .9375rem 0}.hero{background-image:url(assets/img/home-1-768.webp)}.hero__button{padding:.5625rem 1.25rem}.social-follow .social-follow__images img{transform:translate(0)}}@media (max-width:29.99875em){[class*=-button],[class*=__button]{font-size:.9375rem}.menu__item{margin-left:50vw}.submenu,.submenu-wrapper{width:fit-content}.submenu{padding:1.5rem 0 0 .625rem}.hero{background-image:url(assets/img/home-1-480.webp)}.local-experts__stats{margin:3.125rem auto -3.75rem;padding:0;width:17.1875rem}}@media (max-width:24.375em){.header__contact-button{margin-right:.9375rem}}@media (max-width:23.125em){.header__contact-button{font-size:.875rem;padding:.375rem .75rem}}@media (max-width:22.5em){.menu__item{margin-left:44vw}}@media (max-width:20em){.header__logo{max-height:2.625rem}.hero__heading{font-size:2.0625rem;line-height:2.0625rem}.hero__form-wrapper{padding-left:.9375rem;padding-right:.9375rem}.hero__form-heading{font-size:1.625rem}.hero__form-text{font-size:1.0625rem}.local-experts{padding-bottom:3.125rem;padding-top:3.125rem}.local-experts__title{font-size:1.625rem;margin-bottom:2.5rem}}@media (min-width:20em) and (max-width:101.875em){.header__logo{max-height:clamp(2.625rem,2.04484732824375rem + 2.9007633588vw,5rem)}.hero__heading{font-size:clamp(2.0625rem,1.34494274809375rem + 3.5877862595vw,5rem);line-height:clamp(2.0625rem,1.34494274809375rem + 3.5877862595vw,5rem)}.hero__form-wrapper{padding-left:clamp(.9375rem,.5558206106875rem + 1.9083969466vw,2.5rem);padding-right:clamp(.9375rem,.5558206106875rem + 1.9083969466vw,2.5rem)}.hero__form-heading{font-size:clamp(1.625rem,1.472328244275rem + .7633587786vw,2.25rem)}.hero__form-text{font-size:clamp(1.0625rem,1.01669847328125rem + .2290076336vw,1.25rem)}.local-experts{padding-bottom:clamp(3.125rem,2.361641221375rem + 3.8167938931vw,6.25rem);padding-top:clamp(3.125rem,2.361641221375rem + 3.8167938931vw,6.25rem)}.local-experts__title{font-size:clamp(1.625rem,1.2585877862625rem + 1.8320610687vw,3.125rem);margin-bottom:clamp(2.5rem,2.19465648855rem + 1.5267175573vw,3.75rem)}}@media (min-width:47.99875em){.social-follow .social-follow__images img{display:none}}@media (min-width:101.875em){.header__logo{max-height:5rem}.hero__heading{font-size:5rem;line-height:5rem}.hero__form-wrapper{padding-left:2.5rem;padding-right:2.5rem}.hero__form-heading{font-size:2.25rem}.hero__form-text{font-size:1.25rem}.local-experts{padding-bottom:6.25rem;padding-top:6.25rem}.local-experts__title{font-size:3.125rem;margin-bottom:3.75rem}}</style>
-		<script async="" src="//556080.tctm.co/t.js?v=1755197821319"></script>
+		<style>*{border:0;margin:0;padding:0}*,:after,:before{box-sizing:border-box}:after,:before{display:inline-block}body,html{height:100%}body{line-height:1;scrollbar-gutter:stable;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}button{background-color:transparent;color:inherit;font-family:inherit;font-size:inherit;line-height:inherit}a{color:inherit;display:inline-block;text-decoration:none}ul li{list-style:none}img{height:auto;max-width:100%;vertical-align:middle}h1,h2{font-size:inherit;font-weight:inherit}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:600;src:url(assets/fonts/Poppins-SemiBold.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:400;src:url(assets/fonts/Poppins-Regular.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:500;src:url(assets/fonts/Poppins-Medium.woff2) format("woff2")}@font-face{font-display:swap;font-family:Poppins;font-style:normal;font-weight:700;src:url(assets/fonts/Poppins-Bold.woff2) format("woff2")}@font-face{font-display:swap;font-family:Orbitron;font-style:normal;font-weight:700;src:url(assets/fonts/Orbitron-Bold.woff2) format("woff2")}body{color:#000;font-family:Poppins;font-size:1rem;line-height:130%;min-width:20rem}.wrapper{display:flex;flex-direction:column;min-height:100%;overflow:clip}.wrapper>main{flex:1 1 auto}.wrapper>*{min-width:0}[class*=__container]{margin:0 auto;max-width:101.875rem;padding-left:.9375rem;padding-right:.9375rem;width:100%}[class*=-button],[class*=__button]{align-items:center;border-radius:1.875rem;display:flex;font-weight:700;justify-content:center;padding:.875rem 1.25rem;position:relative;text-transform:uppercase;z-index:2}.icon-menu{display:none}.header{background-color:#050505;width:100vw;z-index:10}.header__top-bar{align-items:center;background-color:#050505;color:#fff;display:flex;justify-content:center;margin:0 auto;padding:.5rem 0;position:relative;width:fit-content;z-index:2}.header__container{align-items:center;display:flex;justify-content:space-between}.header__contact-info{align-items:center;column-gap:3.4375rem;display:flex;flex-wrap:wrap;justify-content:center;row-gap:.5rem}.header__contact-info div{align-items:center;display:flex;gap:.375rem}.header__main-bar{align-items:center;background-color:#fff;display:flex;gap:1.875rem;justify-content:space-between;padding:.375rem 0}.header__logo-link{position:relative;z-index:2}.header__logo,.header__logo-2{height:100%;width:auto}.header__contact-button{background-color:#b12025;border:.0625rem solid #b12025;color:#fff}.menu__body{background-color:#fff}.menu__list{align-items:center;display:flex;font-weight:600;gap:1.875rem;justify-content:center}.menu__item,.menu__link{position:relative}.menu__link{font-size:1.25rem}.menu__link:after{background-color:#b12025;bottom:-.3125rem;content:"";height:.125rem;left:50%;position:absolute;width:0}.menu__item--with-submenu{padding-right:1.625rem}.menu__item--with-submenu:after{background:url(assets/img/icons/red-arrow.svg) 50%/contain no-repeat;content:"";display:block;height:.625rem;position:absolute;right:.125rem;top:.75rem;transform:translateY(-50%);width:1rem}.submenu-wrapper{border-radius:0 0 .25rem .25rem;height:0;left:-.9375rem;overflow:hidden;position:absolute;top:calc(100% + .3125rem)}.submenu,.submenu-wrapper{background-color:#fff;width:max-content}.submenu{padding:1.5rem .9375rem 1.25rem}.submenu__item:not(:last-child){margin-bottom:1.125rem}.submenu__item a{font-size:1.125rem}.submenu .menu__link{font-weight:500;opacity:.75}.hero{align-items:center;background-attachment:fixed;background-image:url(assets/img/home-1.webp);background-position-x:center;background-position-y:center;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;padding-bottom:3.75rem;padding-top:3.75rem;position:relative}.hero:before{background-color:rgba(0,0,0,.3);width:100%}.hero:after,.hero:before{content:"";height:100%;left:0;position:absolute;top:0}.hero:after{background:linear-gradient(90deg,#fff,hsla(0,0%,100%,.694) 66.67%,hsla(0,0%,100%,0));width:80%}.hero>*{position:relative;z-index:2}.hero__content{display:flex;flex-direction:column;gap:1.5625rem;width:70%}.hero__heading{margin-top:-.625rem}.hero__heading,.hero__heading span{font-family:Orbitron;font-weight:700;line-height:120%}.hero__heading span{display:block;letter-spacing:.3125rem}.hero .hero__subtitle{font-size:1.5625rem;font-weight:600;line-height:1.3;margin-top:auto;width:100%}.hero__text{font-size:1.25rem;line-height:130%;margin-top:auto;width:100%}.hero .hero__buttons{align-items:center;display:flex;gap:1.25rem;justify-content:flex-start;margin:0;padding:0}.hero__button{align-items:center;background-color:#b12025;border-radius:1.875rem;color:#fff;display:flex;font-weight:700;justify-content:center;padding:.875rem 1.25rem;text-transform:uppercase;width:fit-content}.hero__button{border:.0625rem solid hsla(0,0%,85%,.859)}.hero__button-2{background-color:#4a4a4a}.ws{margin-bottom:1.25rem;width:9.375rem}.marquee-logos div{align-items:center;display:flex;gap:2.5rem;justify-content:center}.marquee-logos div div img{height:100%;max-height:7.5rem}.local-experts__title{font-family:Orbitron;line-height:1.3}.local-experts__description{font-size:1.25rem;line-height:130%;margin-bottom:2.5rem}.spollers__body{border:initial!important;padding:0 0 1.25rem}.spollers__body p{font-size:1rem;opacity:.8}.spollers__body a{color:#3668ff;font-weight:500}.social-follow .social-follow__images img{transform:translate(.9375rem)}@media (max-width:75.06125em){.hero{background-image:url(assets/img/home-1-1200.webp);padding-bottom:3.125rem;padding-top:3.125rem}.hero__button{margin:0 auto}.local-experts__title{text-align:center}}@media (max-width:68.75em){.menu__list{gap:1.5625rem}.menu__link{font-size:1.1875rem}}@media (max-width:64.06125em){[class*=-button],[class*=__button]{padding:.625rem .9375rem}.menu__body{height:calc(100svh - 6.25rem);left:-100%;overflow:auto;padding:12.5rem .9375rem 1.875rem;position:fixed;top:6.25rem;width:100%}.menu__list{flex-direction:column}.menu__link{font-size:1.25rem}.icon-menu{display:block;height:1.125rem;position:relative;width:1.875rem;z-index:5}.icon-menu span,.icon-menu:after,.icon-menu:before{background-color:#000;content:"";height:.125rem;position:absolute;right:0;width:100%}.icon-menu:before{top:0}.icon-menu:after{bottom:0}.icon-menu span{top:calc(50% - .0625rem)}.header__contact-button{margin-left:auto;margin-right:1.875rem}.menu__list{gap:1.875rem}.menu__item{margin-left:12.5rem;min-width:18.625rem}.menu__link:after{display:none}.menu__item--with-submenu:after{right:11.25rem}.submenu-wrapper{left:auto;position:relative;top:auto}.hero{background-image:url(assets/img/home-1-1024.webp)}}@media (max-width:47.99875em){[class*=-button],[class*=__button]{padding:.5rem .9375rem}.header__contact-info{column-gap:1.875rem;font-size:.875rem;row-gap:.125rem}.submenu{padding:1.5rem .9375rem 0}.hero{background-image:url(assets/img/home-1-768.webp)}.hero:after{width:95%}.hero__content{gap:1.25rem;width:80%}.hero .hero__buttons{flex-direction:column;gap:.625rem}.hero__button{padding:.5625rem 1.25rem}.social-follow .social-follow__images img{transform:translate(0)}}@media (max-width:29.99875em){[class*=-button],[class*=__button]{font-size:.9375rem}.menu__item{margin-left:50vw}.submenu,.submenu-wrapper{width:fit-content}.submenu{padding:1.5rem 0 0 .625rem}.hero{background-image:url(assets/img/home-1-480.webp)}.hero:after{background:linear-gradient(90deg,hsla(0,0%,100%,.82),hsla(0,0%,100%,.604) 66.67%,hsla(0,0%,100%,0));width:100%}.hero__content{gap:.9375rem;text-shadow:0 0 .3125rem hsla(0,0%,100%,.685);width:99%}.hero__heading span{letter-spacing:.25rem}.hero .hero__subtitle{font-size:1.375rem}.hero__text{font-size:1.125rem}}@media (max-width:24.375em){.header__contact-button{margin-right:.9375rem}}@media (max-width:23.125em){.header__contact-button{font-size:.875rem;padding:.375rem .75rem}}@media (max-width:22.5em){.menu__item{margin-left:44vw}}@media (max-width:20em){.header__logo{max-height:2.625rem}.header__logo-2{max-height:2.375rem}.hero__heading{font-size:2.0625rem}.marquee-logos{padding-bottom:3.125rem}.local-experts,.marquee-logos{padding-top:3.125rem}.local-experts{padding-bottom:3.125rem}.local-experts__title{font-size:1.5rem;margin-bottom:2.5rem}}@media (min-width:20em) and (max-width:101.875em){.header__logo{max-height:clamp(2.625rem,2.04484732824375rem + 2.9007633588vw,5rem)}.header__logo-2{max-height:clamp(2.375rem,1.81011450381875rem + 2.8244274809vw,4.6875rem)}.hero__heading{font-size:clamp(2.0625rem,1.72662213740625rem + 1.679389313vw,3.4375rem)}.marquee-logos{padding-bottom:clamp(3.125rem,2.361641221375rem + 3.8167938931vw,6.25rem)}.local-experts,.marquee-logos{padding-top:clamp(3.125rem,2.361641221375rem + 3.8167938931vw,6.25rem)}.local-experts{padding-bottom:clamp(3.125rem,2.361641221375rem + 3.8167938931vw,6.25rem)}.local-experts__title{font-size:clamp(1.5rem,1.1030534351125rem + 1.9847328244vw,3.125rem);margin-bottom:clamp(2.5rem,2.19465648855rem + 1.5267175573vw,3.75rem)}}@media (min-width:47.99875em){.social-follow .social-follow__images img{display:none}}@media (min-width:101.875em){.header__logo{max-height:5rem}.header__logo-2{max-height:4.6875rem}.hero__heading{font-size:3.4375rem}.marquee-logos{padding-bottom:6.25rem}.local-experts,.marquee-logos{padding-top:6.25rem}.local-experts{padding-bottom:6.25rem}.local-experts__title{font-size:3.125rem;margin-bottom:3.75rem}}</style>
+		<script async="" src="//556080.tctm.co/t.js?v=1755633077561"></script>
 		<meta name="google-site-verification" content="hd6822yoxP_vBoNv4dDB_GDDyMR2CWiPs-RhMvqI9so">
-		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1755197821319"></script>
+		<title>Waste Solutions of Tennessee</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1755633077561"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755197821319" media="print" onload="this.media='all'">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755197821319" media="print" onload="this.media='all'">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755633077561" media="print" onload="this.media='all'">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755633077561" media="print" onload="this.media='all'">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header header-main">
-				<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
 				<div class="header__top-bar">
 					<div class="header__container">
 						<div class="header__contact-info">
-							<span class="header__phone">
-								<a href="tel:19315408305">1-931-540-8305</a>
-							</span>
-							<span class="header__phone">
-								<a href="tel:19315408305">1-931-540-8305</a>
-							</span>
+							<div>
+								<span class="header__phone">
+									<a href="tel:6157906951">615-790-6951</a>
+								</span>
+								Franklin/Nashville
+							</div>
+							<div>
+								<span class="header__phone">
+									<a href="tel:9315408305">931-540-8305</a>
+								</span>
+								Columbia
+							</div>
 							<span class="header__email">
-								<a href="mailto:sales@wastesolution.com">sales@wastesolution.com</a>
+								<a href="mailto:sales@wastesolutionstn.com">sales@wastesolutionstn.com</a>
 							</span>
 						</div>
 					</div>
 				</div>
 				<div class="header__main-bar">
 					<div class="header__container">
-						<a href="index.html" class="header__logo-link">
-							<img alt="Waste Solution Logo" class="header__logo" src="./assets/img/logo-header.webp">
-						</a>
+						<div class="logos">
+							<a href="index.html" class="header__logo-link">
+								<img alt="Waste Solution Logo" class="header__logo" src="./assets/img/circle-logo.webp">
+							</a>
+							<a href="index.html" class="header__logo-link-2">
+								<img alt="Waste Solution Logo" class="header__logo-2" src="./assets/img/logo-2.webp">
+							</a>
+						</div>
 						<div class="header__menu menu">
 							<nav class="menu__body">
 								<ul class="menu__list">
@@ -93,7 +103,7 @@
 								</ul>
 							</nav>
 						</div>
-						<button class="header__contact-button">Contact Us</button>
+						<button href="#" data-fls-scrollto-header="" data-fls-scrollto="#contact-us" class="header__contact-button">Contact Us</button>
 						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
 							<span></span>
 						</button>
@@ -104,145 +114,107 @@
 				<section class="hero" data-fls-watcher="navigator">
 					<div class="hero__container">
 						<div class="hero__content">
+							<img class="ws" alt="Waste Solutions" src="./assets/img/ws.webp">
 							<h1 class="hero__heading">
-								DUMPSTER RENTALS
-								<span>DELIVERED FAST</span>
+								Waste Solutions
+								<span>of Tennessee</span>
 							</h1>
-							<p class="hero__subtitle">
-								Reliable Roll-Off Dumpster Rental Services in Nashville, Columbia & Surrounding Middle Tennessee
+							<p class="hero__subtitle">Dumpster Rentals with the click of a button – Delivered Fast!</p>
+							<p class="hero__text">
+								Reliable roll-off dumpster rental services in Nashville, Franklin, Columbia and surrounding middle Tennessee
 							</p>
 							<p class="hero__text">
 								Whether you’re tackling a home renovation, construction job, or commercial cleanup, Waste Solutions of Tennessee makes debris removal easy. With two local locations and a team that cares, we deliver waste containers quickly—so you can stay on schedule and on budget.
 							</p>
-							<button class="hero__button">Book Now</button>
-						</div>
-						<div class="hero__form-wrapper">
-							<h2 class="hero__form-heading">QUOTE REQUEST</h2>
-							<p class="hero__form-text">
-								Need a price? Fill out the form and get a fast, no-obligation quote from our local team.
-							</p>
-							<div class="form1-wrapper">
-								<iframe class="ctm-call-widget" src="https://556080.tctm.co/form/FRT472ABB2C5B9B141A9AAC9EE8584B4762A4FAF2B588C9B2B15AD80E71A27A7553.html" style="width:100%;min-height:300px;border:none"></iframe>
+							<div class="hero__buttons">
+								<a href="tel:6157906951" class="hero__button">Call Now</a>
+								<a href="#" data-fls-scrollto-header="" data-fls-scrollto="#sizes" class="hero__button hero__button-2">What size dumpster do I need?</a>
 							</div>
+						</div>
+						<!--
+<div class="hero__form-wrapper">
+<h2 class="hero__form-heading">
+QUOTE REQUEST
+</h2>
+<p class="hero__form-text">
+Need a price? Fill out the form and get a fast, no-obligation quote from our local team.
+</p>
+<div class="form1-wrapper">
+<iframe class="ctm-call-widget" src="https://556080.tctm.co/form/FRT472ABB2C5B9B141A9AAC9EE8584B4762A4FAF2B588C9B2B15AD80E71A27A7553.html" style="width:100%;min-height:300px;border:none"></iframe>
+</div>
+</div>
+-->
+					</div>
+				</section>
+				<section data-fls-marquee="" data-fls-marquee-space="20" data-fls-marquee-speed="250" data-fls-marquee-pause="" class="marquee-logos">
+					<div data-fls-marquee="">
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture1.webp">
+						</div>
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture2.webp">
+						</div>
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture3.webp">
+						</div>
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture4.webp">
+						</div>
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture5.webp">
+						</div>
+						<div>
+							<img alt="logo" src="./assets/img/carousel/Picture6.webp">
 						</div>
 					</div>
 				</section>
 				<section class="local-experts">
+					<div class="local__container">
+						<h2 class="local-experts__title">YOUR LOCAL DUMPSTER RENTAL PROS – Waste Solutions of Tennessee</h2>
+						<p class="local-experts__description">
+							For well over a decade, Waste Solutions of Tennessee has led the way in dumpster rental and debris removal across Middle Tennessee. We’re a locally owned and operated company dedicated to supporting our community and helping homeowners, contractors, and businesses clear out waste quickly and affordably.
+						</p>
+						<p class="local-experts__description">
+							At Waste Solutions of Tennessee, we take pride in being your trusted dumpster rental provider. With several physical locations in middle Tennessee, our experienced team works hard to keep your project running smoothly—whether you’re clearing a garage, replacing a roof, building a house, or managing a large construction site.
+						</p>
+					</div>
 					<div class="local-experts__container">
 						<div class="local-experts__content">
-							<h2 class="local-experts__title">YOUR LOCAL DUMPSTER RENTAL PROS</h2>
 							<p class="local-experts__description">
-								At Waste Solutions of Tennessee, we take pride in being your trusted dumpster rental provider across Middle Tennessee. With locations in Nashville and Columbia, our experienced team works hard to keep your project running smoothly—whether you’re clearing a garage, replacing a roof, or managing a large construction site.
+								Our roll-off waste bins range in size from 10 to 40 cubic yards, perfect for everything from spring cleanups to commercial demolition. Our mission is simple: make waste removal easier, faster, and friendlier—every single time. We’re known for our honesty, fast turnaround times, unbeatable pricing and customer service.
 							</p>
-							<p class="local-experts__description">
-								We’re known for our honesty, fast turnaround times, and unbeatable customer service.
-							</p>
+							<p class="local-experts__description">We proudly serve Williamson, Davidson, Maury & surrounding counties with:</p>
 							<ul class="local-experts__features-list">
 								<li class="local-experts__feature-item">
 									<span class="local-experts__feature-icon"></span>
-									<p class="local-experts__feature-text">Prompt Delivery & Pickup</p>
+									<p class="local-experts__feature-text">Dumpster rental services</p>
 								</li>
 								<li class="local-experts__feature-item">
 									<span class="local-experts__feature-icon"></span>
-									<p class="local-experts__feature-text">Flat Rates, No Hidden Fees</p>
+									<p class="local-experts__feature-text">Demolition debris removal</p>
 								</li>
 								<li class="local-experts__feature-item">
 									<span class="local-experts__feature-icon"></span>
-									<p class="local-experts__feature-text">Clean, Driveway-Safe Waste Bins</p>
+									<p class="local-experts__feature-text">Recycling and repurposing of various types of waste</p>
 								</li>
 							</ul>
-							<a href="#" class="local-experts__button">More About Waste Solution TN</a>
+							<a href="about.html" class="local-experts__button">More About Waste Solutions of Tennessee</a>
 						</div>
 						<div class="local-experts__stats">
-							<div class="local-experts__stats-item">
-								<div class="local-experts__stat-percentage">99%</div>
-								<p class="local-experts__stat-description">Clients Satisfaction</p>
-							</div>
-							<div class="local-experts__stats-item">
-								<div class="local-experts__stat-percentage">100%</div>
-								<p class="local-experts__stat-description">On-Site Job Completion</p>
-							</div>
+							<!--
+<div class="local-experts__stats-item">
+<div class="local-experts__stat-percentage">99%</div>
+<p class="local-experts__stat-description">Clients Satisfaction</p>
+</div>
+<div class="local-experts__stats-item">
+<div class="local-experts__stat-percentage">100%</div>
+<p class="local-experts__stat-description">On-Site Job Completion</p>
+</div>
+-->
+							<img alt="ws" src="./assets/img/ws-truck-behind.webp">
 						</div>
 						<div class="local-experts__image-wrapper">
 							<img alt="Image" src="./assets/img/home-2.webp">
-						</div>
-					</div>
-				</section>
-				<section class="about">
-					<div class="about__container">
-						<div class="about__content">
-							<h2 class="about__title">
-								ABOUT
-								<span>WASTE SOLUTIONS</span>
-								OF TENNESSEE
-							</h2>
-							<p>
-								For well over a decade, Waste Solutions of Tennessee has led the way in dumpster rental and debris removal across Middle Tennessee. We’re a locally owned and operated company dedicated to supporting our community and helping homeowners, contractors, and businesses clear out waste quickly and affordably.
-							</p>
-							<p>
-								Our roll-off waste bins range in size from 10 to 40 cubic yards, perfect for everything from spring cleanups to commercial demolition.
-							</p>
-							<p>
-								Our mission is simple: make waste removal easier, faster, and friendlier—every single time.
-							</p>
-							<p>We proudly serve Nashville, Columbia, and surrounding towns with:</p>
-							<ul>
-								<li>
-									<span class="about__list-icon"></span>
-									Dumpster rental services
-								</li>
-								<li>
-									<span class="about__list-icon"></span>
-									Demolition debris removal
-								</li>
-								<li>
-									<span class="about__list-icon"></span>
-									Recycling and repurposing of various types of waste
-								</li>
-							</ul>
-						</div>
-						<div class="about__media">
-							<img alt="Image" src="./assets/img/3.webp">
-						</div>
-					</div>
-				</section>
-				<section class="why-choose-us">
-					<div class="why-choose-us__container">
-						<h2 class="why-choose-us__heading">WHY CHOOSE US?</h2>
-						<div class="why-choose-us__steps">
-							<div class="why-choose-us__step why-choose-us__step--top-left">
-								<div class="why-choose-us__number">01</div>
-								<p class="why-choose-us__description">Schedule the same day, next morning, or in advance</p>
-							</div>
-							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--left">
-								<div class="circle-left"></div>
-								<div class="circle-right"></div>
-								<div class="why-choose-us__image-wrapper--inner">
-									<img alt="Image" src="./assets/img/home-4.webp">
-								</div>
-							</div>
-							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--center">
-								<div class="circle-left"></div>
-								<div class="circle-right"></div>
-								<div class="why-choose-us__image-wrapper--inner">
-									<img alt="Image" src="./assets/img/home-5.webp">
-								</div>
-							</div>
-							<div class="why-choose-us__step why-choose-us__step--bottom-center">
-								<div class="why-choose-us__number">02</div>
-								<p class="why-choose-us__description">Reserve online or over the phone in minutes</p>
-							</div>
-							<div class="why-choose-us__step why-choose-us__step--top-right">
-								<div class="why-choose-us__number">03</div>
-								<p class="why-choose-us__description">Receive communication every step of the way</p>
-							</div>
-							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--right">
-								<div class="circle-left"></div>
-								<div class="circle-right"></div>
-								<div class="why-choose-us__image-wrapper--inner">
-									<img alt="Image" src="./assets/img/home-6.webp">
-								</div>
-							</div>
 						</div>
 					</div>
 				</section>
@@ -250,100 +222,57 @@
 					<div class="services-offered__container">
 						<div class="services-offered__header">
 							<h2 class="services-offered__heading">
-								SERVICES OFFERED BY
+								Services Offered by
 								<br>
-								<span>WASTE SOLUTIONS TN</span>
+								<span>Waste Solutions of TN</span>
 							</h2>
 							<button class="services-offered__button">Discover More Services</button>
 						</div>
 						<div class="services-offered__items">
 							<div class="services-offered__item">
 								<div class="services-offered__image-wrapper">
-									<img alt="Roll-Off Dumpster Rentals" class="services-offered__image" src="./assets/img/home-7.webp">
+									<img alt="Residential Dumpster Rentals" class="services-offered__image" src="./assets/img/residential.webp">
 								</div>
-								<h3 class="services-offered__item-title">ROLL-OFF DUMPSTER RENTALS</h3>
+								<h3 class="services-offered__item-title">Residential Dumpster Rentals</h3>
 								<button class="services-offered__item-button">Book It Now</button>
 							</div>
 							<div class="services-offered__item">
 								<div class="services-offered__image-wrapper">
-									<img alt="Construction Site Dumpsters" class="services-offered__image" src="./assets/img/home-8.webp">
+									<img alt="Commercial/Industrial Dumpster Rental" class="services-offered__image" src="./assets/img/commercial.webp">
 								</div>
-								<h3 class="services-offered__item-title">CONSTRUCTION SITE DUMPSTERS</h3>
+								<h3 class="services-offered__item-title">Commercial/Industrial Dumpster Rental</h3>
 								<button class="services-offered__item-button">Book It Now</button>
 							</div>
 							<div class="services-offered__item">
 								<div class="services-offered__image-wrapper">
-									<img alt="Residential Dumpster Rentals" class="services-offered__image" src="./assets/img/home-9.webp">
+									<img src="./assets/img/compactor%20front.jpeg" alt="Compactor Install" class="services-offered__image">
 								</div>
-								<h3 class="services-offered__item-title">RESIDENTIAL DUMPSTER RENTALS</h3>
+								<h3 class="services-offered__item-title">Compactor Install & Service</h3>
 								<button class="services-offered__item-button">Book It Now</button>
 							</div>
 						</div>
-					</div>
-				</section>
-				<section class="how-it-works">
-					<div class="how-it-works__container">
-						<h2 class="how-it-works__heading">EASY RENTAL PROCESS – HOW IT WORKS</h2>
-						<div class="how-it-works__steps">
-							<div class="step">
-								<div class="step__icon">
-									<img alt="icon" src="./assets/img/icons/step-01.webp">
+						<br>
+						<div class="services-offered__items">
+							<div class="services-offered__item">
+								<div class="services-offered__image-wrapper">
+									<img src="./assets/img/recycling%20option%202.jpeg" alt="Recycling" class="services-offered__image">
 								</div>
-								<div class="step__content">
-									<div class="step__number">01</div>
-									<h3 class="step__title">Call or request a quote online</h3>
-									<p class="step__text">
-										Reach out to our team to start your dumpster rental process. We’ll answer your questions and help you get the right container for your needs.
-									</p>
-								</div>
+								<h3 class="services-offered__item-title">Recycling</h3>
+								<button class="services-offered__item-button">Book It Now</button>
 							</div>
-							<div class="step">
-								<div class="step__icon">
-									<img alt="icon" src="./assets/img/icons/step-1.webp">
+							<div class="services-offered__item">
+								<div class="services-offered__image-wrapper">
+									<img src="./assets/img/Demolition%20hauling.jpg" alt="Demolition Hauling" class="services-offered__image">
 								</div>
-								<div class="step__content">
-									<div class="step__number">02</div>
-									<h3 class="step__title">Choose your dumpster size</h3>
-									<p class="step__text">
-										We offer a range of dumpster rental options from 10 to 40 cubic yards. Not sure which waste bin fits your project? Just ask – we’ll help you choose the right size for your needs and budget.
-									</p>
-								</div>
+								<h3 class="services-offered__item-title">Demolition Hauling</h3>
+								<button class="services-offered__item-button">Book It Now</button>
 							</div>
-							<div class="step">
-								<div class="step__icon">
-									<img alt="icon" src="./assets/img/icons/step-2.webp">
+							<div class="services-offered__item">
+								<div class="services-offered__image-wrapper">
+									<img alt="Residential Dumpster Rentals" class="services-offered__image" src="./assets/img/special.webp">
 								</div>
-								<div class="step__content">
-									<div class="step__number">03</div>
-									<h3 class="step__title">We deliver it to your location</h3>
-									<p class="step__text">
-										Tell us when and where you need the container – we’ll handle the rest. Our team delivers clean, professional-grade bins right to your job site or property, on time and hassle-free.
-									</p>
-								</div>
-							</div>
-							<div class="step">
-								<div class="step__icon">
-									<img alt="icon" src="./assets/img/icons/step-3.webp">
-								</div>
-								<div class="step__content">
-									<div class="step__number">04</div>
-									<h3 class="step__title">Fill it up</h3>
-									<p class="step__text">
-										Take your time. Fill your waste container with construction debris, renovation waste, or general junk. Whether it’s a quick cleanout or a long-term project, we’ve got you covered.
-									</p>
-								</div>
-							</div>
-							<div class="step">
-								<div class="step__icon">
-									<img alt="icon" src="./assets/img/icons/step-4.webp">
-								</div>
-								<div class="step__content">
-									<div class="step__number">05</div>
-									<h3 class="step__title">We haul it away—done!</h3>
-									<p class="step__text">
-										Once you’re done, give us a call. We’ll schedule a quick and easy pickup. We handle disposal so you don’t have to worry about a thing.
-									</p>
-								</div>
+								<h3 class="services-offered__item-title">Special Events</h3>
+								<button class="services-offered__item-button">Book It Now</button>
 							</div>
 						</div>
 					</div>
@@ -367,7 +296,7 @@
 							<div data-fls-tabs-body="" class="tabs__content">
 								<div class="tabs__body">
 									<h3>10 Yard Dumpster</h3>
-									<p>8′ Wide X 4.5′ High X 12′ Long</p>
+									<p>8′ Wide X 3′ High X 12′ Long</p>
 									<div class="tab-wrapper">
 										<div class="tab-image">
 											<img alt="10 Yard Dumpster" src="./assets/img/dumpster-10.webp">
@@ -384,7 +313,7 @@
 								</div>
 								<div class="tabs__body">
 									<h3>15 Yard Dumpster</h3>
-									<p>8′ Wide X 5′ High X 15′ Long</p>
+									<p>8′ Wide X 5′ High X 12′ Long</p>
 									<div class="tab-wrapper">
 										<div class="tab-image">
 											<img alt="15 Yard Dumpster" src="./assets/img/dumpster-15.webp">
@@ -403,7 +332,7 @@
 								</div>
 								<div class="tabs__body">
 									<h3>20 Yard Dumpster</h3>
-									<p>8′ Wide X 6′ High X 18′ Long</p>
+									<p>8′ Wide X 4′ High X 18′ Long</p>
 									<div class="tab-wrapper">
 										<div class="tab-image">
 											<img alt="20 Yard Dumpster" src="./assets/img/dumpster-20.webp">
@@ -444,7 +373,7 @@
 								</div>
 								<div class="tabs__body">
 									<h3>30 Yard Dumpster</h3>
-									<p>8′ Wide X 6′ High X 23′ Long</p>
+									<p>8′ Wide X 6′ High X 20′ Long</p>
 									<div class="tab-wrapper">
 										<div class="tab-image">
 											<img alt="30 Yard Dumpster" src="./assets/img/dumpster-30.webp">
@@ -486,6 +415,134 @@
 								Waste Solutions provides compactor hauling services for commercial customers on an as needed basis.  Call our office or send in a bid request and we will service your location as you need it.
 							</p>
 							<div class="sizes-button">Book now</div>
+						</div>
+					</div>
+				</section>
+				<section class="how-it-works">
+					<div class="how-it-works__container">
+						<h2 class="how-it-works__heading">EASY RENTAL PROCESS – HOW IT WORKS</h2>
+						<div class="how-it-works__steps">
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-01.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 1:</div>
+									<h3 class="step__title">Call or request a quote online</h3>
+									<!--
+<p class="step__text">
+Reach out to our team to start your dumpster rental process. We’ll answer your questions and help you get the right container for your needs.
+</p>
+-->
+								</div>
+							</div>
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-1.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 2:</div>
+									<h3 class="step__title">Choose your container size</h3>
+									<!--
+<p class="step__text">
+We offer a range of dumpster rental options from 10 to 40 cubic yards. Not sure which waste bin fits your project? Just ask – we’ll help you choose the right size for your needs and budget.
+</p>
+-->
+								</div>
+							</div>
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-2.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 3:</div>
+									<h3 class="step__title">We deliver it to your location</h3>
+									<!--
+<p class="step__text">
+Tell us when and where you need the container – we’ll handle the rest. Our team delivers clean, professional-grade bins right to your job site or property, on time and hassle-free.
+</p>
+-->
+								</div>
+							</div>
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-3.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 4:</div>
+									<h3 class="step__title">Fill it up</h3>
+									<!--
+<p class="step__text">
+Take your time. Fill your waste container with construction debris, renovation waste, or general junk. Whether it’s a quick cleanout or a long-term project, we’ve got you covered.
+</p>
+-->
+								</div>
+							</div>
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-4.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 5:</div>
+									<h3 class="step__title">We haul it away — done!</h3>
+									<!--
+<p class="step__text">
+Once you’re done, give us a call. We’ll schedule a quick and easy pickup. We handle disposal so you don’t have to worry about a thing.
+</p>
+-->
+								</div>
+							</div>
+							<div class="step">
+								<div class="step__icon">
+									<img alt="icon" src="./assets/img/icons/step-6.webp">
+								</div>
+								<div class="step__content">
+									<div class="step__number">Step 6:</div>
+									<h3 class="step__title">Let us know how we did</h3>
+								</div>
+							</div>
+						</div>
+						<br>
+						<p>No contracts. No hidden fees. Just clean, stress-free dumpster rentals.</p>
+					</div>
+				</section>
+				<section class="why-choose-us">
+					<div class="why-choose-us__container">
+						<h2 class="why-choose-us__heading">WHY CHOOSE US?</h2>
+						<div class="why-choose-us__steps">
+							<div class="why-choose-us__step why-choose-us__step--top-left">
+								<div class="why-choose-us__number">01</div>
+								<p class="why-choose-us__description">Same day, next morning or in advance service - Prompt Delivery & Pickup</p>
+							</div>
+							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--left">
+								<div class="circle-left"></div>
+								<div class="circle-right"></div>
+								<div class="why-choose-us__image-wrapper--inner">
+									<img alt="Image" src="./assets/img/Picture49.webp">
+								</div>
+							</div>
+							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--center">
+								<div class="circle-left"></div>
+								<div class="circle-right"></div>
+								<div class="why-choose-us__image-wrapper--inner">
+									<img alt="Image" src="./assets/img/Picture50.webp">
+								</div>
+							</div>
+							<div class="why-choose-us__step why-choose-us__step--bottom-center">
+								<div class="why-choose-us__number">02</div>
+								<p class="why-choose-us__description">Excellent communication and customer service – Clean, Driveway-Safe Waste Bins</p>
+							</div>
+							<div class="why-choose-us__step why-choose-us__step--top-right">
+								<div class="why-choose-us__number">03</div>
+								<p class="why-choose-us__description">Best pricing and easy billing - Flat Rates, No Hidden Fees</p>
+							</div>
+							<div class="why-choose-us__image-wrapper why-choose-us__image-wrapper--right">
+								<div class="circle-left"></div>
+								<div class="circle-right"></div>
+								<div class="why-choose-us__image-wrapper--inner">
+									<img alt="Image" src="./assets/img/Picture51.webp">
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -546,30 +603,58 @@
 								<summary class="spollers__title">What dumpster sizes do you carry?</summary>
 								<div class="spollers__body">
 									<p>
-										We carry 10 through 40 yard dumpsters.
+										We carry 10 through 40 yard dumpsters. Our containers are open top, featuring walk-in access on the rear of the container, allowing you to walk in debris without having to lift over the rails.
 										<a href="#" data-fls-scrollto-header="" data-fls-scrollto="#sizes">Click Here</a>
-										to view all of our containers sizes and dimensions.
+										to view all of our container sizes and dimensions.
+									</p>
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">What size dumpster do I need?</summary>
+								<div class="spollers__body">
+									<p>
+										Every project is different, but we are happy to talk you through it and help you make the best decision possible.
+									</p>
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">How are dumpster rentals priced?</summary>
+								<div class="spollers__body">
+									<p>
+										Our dumpsters are priced by size and weight. Each dumpster size has a certain number of tons it can hold. Therefore, the bigger the dumpster, the more it can hold and the more it will generally cost in disposal. Our dumpsters are priced with a flat rate which includes a certain tonnage allowance and a certain number of days
 									</p>
 								</div>
 							</details>
 							<details class="spollers__item">
 								<summary class="spollers__title">How long can I keep the dumpster for?</summary>
 								<div class="spollers__body">
-									<p>However long you require! Give us a call today for pricing!</p>
+									<p>
+										However long you require! Our flat rate pricing includes a certain amount of time, but you can keep the container as long as you need. Our flat rates include a certain number of days included and we will go over any fees associated with a longer term rental.
+									</p>
 								</div>
 							</details>
 							<details class="spollers__item">
 								<summary class="spollers__title">Are there any prohibited items?</summary>
 								<div class="spollers__body">
 									<p>
-										Chemicals, paint, gasoline, hazardous materials and biohazardous materials can not be put in our dumpsters. We offer special dumpsters for concrete or dirt, just ask!
+										Chemicals, paint, gasoline, hazardous materials and biohazardous materials can not be put in our dumpsters. We offer special dumpsters for concrete, dirt, or tree debris, just ask!
+									</p>
+								</div>
+							</details>
+							<details class="spollers__item">
+								<summary class="spollers__title">When should I order my dumpster?</summary>
+								<div class="spollers__body">
+									<p>
+										We recommend ordering as early as possible as we can always move your delivery date if needed. We can schedule delivery at your convenience, even the same day or the following day. We pride ourselves in fast reliable service and next day service is our specialty!
 									</p>
 								</div>
 							</details>
 							<details class="spollers__item">
 								<summary class="spollers__title">Where are you located?</summary>
 								<div class="spollers__body">
-									<p>We have two convenient locations to serve you: (Address) and (Address)</p>
+									<p>
+										Franklin: 511 New Hwy 96W, Suite 204, Franklin, TN 37064, Columbia: 1168 Industrial Park Rd, Columbia, TN 38401
+									</p>
 								</div>
 							</details>
 						</div>
@@ -627,15 +712,63 @@
 				<section class="social-follow">
 					<div class="social-follow__container">
 						<div class="social-follow__content">
-							<h2 class="social-follow__heading">WE ARE ON SOCIAL</h2>
-							<div class="social-follow__button">FOLLOW US ON FACEBOOK</div>
+							<h2 class="social-follow__heading">FIND US ON SOCIAL MEDIA</h2>
+							<div class="social-links">
+								<a href="https://facebook.com/wastesolutionstn" class="social-link">
+									<img alt="Facebook Icon" src="./assets/img/facebook.webp">
+								</a>
+								<a href="https://www.instagram.com/wastesolutionstn" class="social-link">
+									<img alt="Instagram Icon" src="./assets/img/instagram.webp">
+								</a>
+								<a href="https://www.linkedin.com/waste-solutions-of-tennessee-llc" class="social-link">
+									<img alt="LinkedIn Icon" src="./assets/img/linkedin.webp">
+								</a>
+							</div>
 						</div>
 						<div class="social-follow__images">
 							<img alt="Image" src="./assets/img/community.webp">
 						</div>
 					</div>
 				</section>
-				<section class="contact-us">
+				<section id="about" class="about">
+					<div class="about__container">
+						<div class="about__content">
+							<h2 class="about__title">
+								ABOUT
+								<span>WASTE SOLUTIONS</span>
+								OF TENNESSEE
+							</h2>
+							<p>
+								For well over a decade, Waste Solutions of Tennessee has led the way in dumpster rental and debris removal across Middle Tennessee. We’re a locally owned and operated company dedicated to supporting our community and helping homeowners, contractors, and businesses clear out waste quickly and affordably.
+							</p>
+							<p>
+								Our roll-off waste bins range in size from 10 to 40 cubic yards, perfect for everything from spring cleanups to commercial demolition.
+							</p>
+							<p>
+								Our mission is simple: make waste removal easier, faster, and friendlier—every single time.
+							</p>
+							<p>We proudly serve Nashville, Columbia, and surrounding towns with:</p>
+							<ul>
+								<li>
+									<span class="about__list-icon"></span>
+									Dumpster rental services
+								</li>
+								<li>
+									<span class="about__list-icon"></span>
+									Demolition debris removal
+								</li>
+								<li>
+									<span class="about__list-icon"></span>
+									Recycling and repurposing of various types of waste
+								</li>
+							</ul>
+						</div>
+						<div class="about__media">
+							<img alt="Image" src="./assets/img/3.webp">
+						</div>
+					</div>
+				</section>
+				<section id="contact-us" class="contact-us">
 					<div class="contact-us__container">
 						<div class="contact-us__form-col">
 							<div class="contact-us__form-wrapper">
@@ -773,8 +906,8 @@
 				</div>
 			</footer>
 		</div>
-		<script defer async src="https://556080.tctm.co/formreactor.js?v=1755197821319"></script>
-		<noscript><link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755197821319"></noscript>
-		<noscript><link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755197821319"></noscript>
+		<script defer async src="https://556080.tctm.co/formreactor.js?v=1755633077561"></script>
+		<noscript><link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755633077561"></noscript>
+		<noscript><link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755633077561"></noscript>
 	</body>
 </html>
