@@ -216,14 +216,6 @@ function menuInit() {
   });
 }
 document.querySelector("[data-fls-menu]") ? window.addEventListener("load", menuInit) : null;
-document.addEventListener("DOMContentLoaded", () => {
-  const menuItems = document.querySelectorAll(".menu__item");
-  menuItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      item.classList.toggle("menu__item--open");
-    });
-  });
-});
 function headerScroll() {
   const header = document.querySelector("[data-fls-header-scroll]");
   const headerShow = header.hasAttribute("data-fls-header-scroll-show");
@@ -256,6 +248,14 @@ function headerScroll() {
   });
 }
 document.querySelector("[data-fls-header-scroll]") ? window.addEventListener("load", headerScroll) : null;
+document.addEventListener("DOMContentLoaded", () => {
+  const menuItems = document.querySelectorAll(".menu__item");
+  menuItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      item.classList.toggle("menu__item--open");
+    });
+  });
+});
 export {
   setHash as a,
   slideUp as b,
